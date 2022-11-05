@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnCrea" Content="Crea brano" HorizontalAlignment="Left" Margin="115,34,0,0" VerticalAlignment="Top" Click="btnCrea_Click"/>
+        <TextBox x:Name="txtBrano" HorizontalAlignment="Left" Margin="86,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCreaCD" Content="Crea CD" HorizontalAlignment="Left" Margin="319,34,0,0" VerticalAlignment="Top" Click="btnCreaCD_Click"/>
+        <TextBox x:Name="txtCD" HorizontalAlignment="Left" Margin="283,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAggiungi" Content="Aggiungi" HorizontalAlignment="Left" Margin="223,174,0,0" VerticalAlignment="Top" Click="btnAggiungi_Click"/>
+
     </Grid>
 </Window>
