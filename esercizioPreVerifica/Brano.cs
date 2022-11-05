@@ -8,7 +8,6 @@ namespace esercizioPreVerifica
 {
     internal class Brano
     {
-        List<string> brano = new List<string>();
         string titolo;
         string autore;
         int durata;
